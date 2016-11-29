@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+        <persistence-unit name="TempDB">
+                <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+                <properties>
+                    <property name="javax.persistence.jdbc.Driver" value="com.mysql.jdbc.Driver "/>
+                    <property name="javax" value=""
+                </properties>
+</persistence-unit>
+</persistence>
