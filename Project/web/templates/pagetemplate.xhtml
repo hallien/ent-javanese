@@ -24,19 +24,19 @@
                <span class="icon-bar"></span>
                <span class="icon-bar"></span>
             </h:button>
-            <a class="navbar-brand" href="#">Books-for-All</a>
+            <span class="navbar-brand">Books-for-All</span>
          </div>
          <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-               <li class="active"><a href="#">Home</a></li>
-               <li><a href="#">Book List</a></li>
-               <li><a href="#">New Releases</a></li>
-               <li><a href="#">Contact</a></li>
+               <li class="active"><h:outputLink value="MainPage.jsf">Home</h:outputLink></li>
+               <li><h:outputLink value="BookList.jsf">Book List</h:outputLink></li>
+               <li><h:outputLink value="NewReleases.jsf">New Releases</h:outputLink></li>
+               <li><h:outputLink value="Contact.jsf">Contact</h:outputLink></li>
             </ul>
 
 
             <ul class="nav navbar-nav navbar-right">
-               <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+               <li><h:outputLink value="Login.jsf"><span class="glyphicon glyphicon-log-in"></span> Login</h:outputLink></li>
             </ul>
             <div class = "input-group">
 
