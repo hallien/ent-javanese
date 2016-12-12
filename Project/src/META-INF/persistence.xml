@@ -5,11 +5,7 @@
         <property name="javax.persistence.jdbc.driver"
                   value="com.mysql.jdbc.Driver" />
         <property name="javax.persistence.jdbc.url"
-                  value="jdbc:mysql://localhost:3306/project?useLegacyDatetimeCode=false&amp;serverTimezone=Asia/Manila" />
-        <property name="javax.persistence.jdbc.user"
-                  value="ej_db" />
-        <property name="javax.persistence.jdbc.password"
-                  value="PewPew" />
+                  value="jdbc:mysql://us-cdbr-iron-east-04.cleardb.net/ad_8b9c7fee0024603?user=bbb188295113c2&amp;password=b1ff777fuseLegacyDatetimeCode=false&amp;serverTimezone=Asia/Manila" />
         <property name="hibernate.show_sql"
                   value="true" />
         <property name="hibernate.hbm2ddl.auto"
