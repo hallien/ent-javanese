@@ -7,5 +7,14 @@ import javax.faces.bean.ManagedBean;
 public class BStoreBean {
 
 
+    private String customerFName, customerLName, customerEmail, customerPassword;
+    public String getCustomerFName()
+    {
+        return customerFName;
+    }
+
+    public void setCustomerFName(String customerFName){
+        this.customerFName = customerFName;
+    }
 
 }
