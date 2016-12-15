@@ -7,37 +7,39 @@
     <ui:define name="content">
 
         test
-
+        <div class="row">
         <div class="col-sm-3"/>
         <div class="container col-sm-6">
             <h2>Edit Account</h2>
             <form>
                 <hr/>
                 <div class="form-group">
-                <label>Fname:</label>
-                <h:button type="submit" class="btn btn-default">Change Fname</h:button>
+                <div><label>Fname:</label></div>
+                <div><h:commandButton value="Change Fname" type="submit" action="#{customer.register}" class="btn btn-default" /></div>
+
             </div>
                 <hr/>
                 <div class="form-group">
-                <label>Lname:</label>
-                <h:button type="submit" class="btn btn-default">Change Lname</h:button>
+                <div><label>Lname:</label></div>
+                <div><h:commandButton value="Change Lname" type="submit" action="#{customer.register}" class="btn btn-default" /></div>
+
             </div>
                 <hr/>
                 <div class="form-group">
-                    <label>Email:</label>
-                    <h:button type="submit" class="btn btn-default">Change Email</h:button>
+                <div><label>Email:</label></div>
+                <div><h:commandButton value="Change Email" type="submit" action="#{customer.register}" class="btn btn-default" /></div>
                 </div>
                 <hr/>
                 <div class="form-group">
-                    <label>Password:</label>
-                    <h:button type="submit" class="btn btn-default">Change Password</h:button>
+                <div><label>Password:</label></div>
+                <div> <h:commandButton value="Change Password" type="submit" action="#{customer.register}" class="btn btn-default" /></div>
                 </div>
                 <hr/>
-                <h:button type="submit" class="btn btn-default">Delete Account</h:button>
+                <h:commandButton value="Delete Account" type="submit" action="#{customer.register}" class="btn btn-default" />
                 <hr/>
             </form>
         </div>
         <div class="col-sm-3"/>
-
+        </div>
     </ui:define>
 </ui:composition>

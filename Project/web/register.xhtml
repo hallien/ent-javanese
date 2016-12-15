@@ -37,7 +37,7 @@
                 <div class="checkbox">
                     <label><input value="#{customer.agree}" type="checkbox"/> Do you agree on the terms and conditions?</label>
                 </div>
-                <button value="#{customer.register}" type="submit" class="btn btn-default">Register</button>
+                <h:commandButton value="register" type="submit" action="#{customer.register}" class="btn btn-default" />
             </form>
         </div>
         <div class="col-sm-3"></div>

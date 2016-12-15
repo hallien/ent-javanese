@@ -6,8 +6,7 @@
                 template="/templates/pagetemplate.xhtml">
 <ui:define name="content">
 
-test
-
+    <div class="row">
     <div class="col-sm-3"/>
     <div class="container col-sm-6">
         <h2>Login Account</h2>
@@ -21,10 +20,11 @@ test
                 <h:inputText type="password" class="form-control" id="pwd" placeholder="Enter password"/>
             </div>
 
-            <button type="submit" class="btn btn-default">Submit</button>
+
+            <h:commandButton value="submit" type="submit" action="#{user.goLoginPage}" class="btn btn-default" />
         </form>
     </div>
     <div class="col-sm-3"/>
-
+    </div>
 </ui:define>
 </ui:composition>
