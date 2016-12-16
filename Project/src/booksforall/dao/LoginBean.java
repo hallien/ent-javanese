@@ -1,4 +1,4 @@
-/**
+package booksforall.dao; /**
  * Created by Yuu on 12/02/16.
  */
 import javax.faces.bean.ManagedBean;
